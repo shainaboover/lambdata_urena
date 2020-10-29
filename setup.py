@@ -15,7 +15,7 @@ with open("README.md", "r") as fh:
 setuptools.setup(
     name='lambdata_urena1',
     version="0.1.1",
-    author="Jose Urena"
+    author="Jose Urena",
     description="A collection of Data Science helper functions",
     long_description=LONG_DESCRIPTION,
     long_description_content_type="text/markdown",
