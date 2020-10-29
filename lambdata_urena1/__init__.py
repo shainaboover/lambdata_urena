@@ -1,4 +1,4 @@
 from .df_utils import *
-__version__ = "0.0.1" 
+__version__ = "0.1.1" 
 my_str = "this is my_str from __int_.py written by Jose M Urena"
 
