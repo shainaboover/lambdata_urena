@@ -7,6 +7,7 @@ import setuptools
 REQUIRED = [
     "numpy",
     "pandas"
+    "datetime"
 ]
 
 with open("README.md", "r") as fh:
