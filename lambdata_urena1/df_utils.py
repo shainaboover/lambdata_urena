@@ -2,7 +2,9 @@ import pandas as pd
 import numpy as np
 import datetime as dt
 
+#from original lecture create a series of (1)
 ONES = pd.Series(np.ones(10))
+#from original lecture create a series of (1)
 ZEROS = pd.Series(np.zeros(20))
 
 
@@ -23,15 +25,19 @@ def isit_float(s):
 
 
 def datetime_columns(df, feature):
-    """pass a pandas dataframe and column name with date str type,
-    return columns in same the data frame with day, month and year columns"""
+    """pass a pandas dataframe and column name with str type with datetime info,
+    return columns in the same data frame with columns: day, month and year (int)"""
     df['day'] = pd.to_datetime(df[feature]).dt.day
     df['year'] = pd.to_datetime(df[feature]).dt.month
     return df
 
 
 class Dead_poets_society:
-    """class for english poems"""
+    """class for english poems
+    enter poem name, poet name,
+    number of words in the poem,
+    and web link to the poem
+    type class.poem1..5 for examples"""
 
     def __init__(self, poem, poet, n_words, link):
         self.poem = poem
