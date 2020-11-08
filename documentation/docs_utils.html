@@ -1,0 +1,118 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html><head><title>Python: module lambdata_urena1.df_utils</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head><body bgcolor="#f0f0f8">
+
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="heading">
+<tr bgcolor="#7799ee">
+<td valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial">&nbsp;<br><big><big><strong><a href="lambdata_urena1.html"><font color="#ffffff">lambdata_urena1</font></a>.df_utils</strong></big></big></font></td
+><td align=right valign=bottom
+><font color="#ffffff" face="helvetica, arial"><a href=".">index</a><br><a href="file:/home/urenajose/github_repos/lambdata_urena/lambdata_urena1/df_utils.py">/home/urenajose/github_repos/lambdata_urena/lambdata_urena1/df_utils.py</a></font></td></tr></table>
+    <p><tt>Functions&nbsp;and&nbsp;class<br>
+Class&nbsp;Dead_poet_society&nbsp;that&nbsp;holds&nbsp;english&nbsp;poem&nbsp;information<br>
+Function&nbsp;isit_float&nbsp;check&nbsp;to&nbsp;see&nbsp;if&nbsp;a&nbsp;str&nbsp;is&nbsp;formated&nbsp;as&nbsp;a&nbsp;float</tt></p>
+<p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#aa55cc">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Modules</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#aa55cc"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><table width="100%" summary="list"><tr><td width="25%" valign=top><a href="datetime.html">datetime</a><br>
+</td><td width="25%" valign=top><a href="numpy.html">numpy</a><br>
+</td><td width="25%" valign=top><a href="pandas.html">pandas</a><br>
+</td><td width="25%" valign=top></td></tr></table></td></tr></table><p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ee77aa">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Classes</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#ee77aa"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><dl>
+<dt><font face="helvetica, arial"><a href="builtins.html#object">builtins.object</a>
+</font></dt><dd>
+<dl>
+<dt><font face="helvetica, arial"><a href="lambdata_urena1.df_utils.html#Dead_poets_society">Dead_poets_society</a>
+</font></dt></dl>
+</dd>
+</dl>
+ <p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="Dead_poets_society">class <strong>Dead_poets_society</strong></a>(<a href="builtins.html#object">builtins.object</a>)</font></td></tr>
+    
+<tr bgcolor="#ffc8d8"><td rowspan=2><tt>&nbsp;&nbsp;&nbsp;</tt></td>
+<td colspan=2><tt><a href="#Dead_poets_society">Dead_poets_society</a>(poem,&nbsp;poet,&nbsp;n_words,&nbsp;link)<br>
+&nbsp;<br>
+class&nbsp;for&nbsp;english&nbsp;poems<br>
+enter&nbsp;poem&nbsp;name,&nbsp;poet&nbsp;name,<br>
+number&nbsp;of&nbsp;words&nbsp;in&nbsp;the&nbsp;poem,<br>
+and&nbsp;web&nbsp;link&nbsp;to&nbsp;the&nbsp;poem<br>
+type&nbsp;class.poem1..5&nbsp;for&nbsp;examples<br>&nbsp;</tt></td></tr>
+<tr><td>&nbsp;</td>
+<td width="100%">Methods defined here:<br>
+<dl><dt><a name="Dead_poets_society-__init__"><strong>__init__</strong></a>(self, poem, poet, n_words, link)</dt><dd><tt>Initialize&nbsp;self.&nbsp;&nbsp;See&nbsp;help(type(self))&nbsp;for&nbsp;accurate&nbsp;signature.</tt></dd></dl>
+
+<dl><dt><a name="Dead_poets_society-__repr__"><strong>__repr__</strong></a>(self)</dt><dd><tt>Return&nbsp;repr(self).</tt></dd></dl>
+
+<dl><dt><a name="Dead_poets_society-__str__"><strong>__str__</strong></a>(self)</dt><dd><tt>Return&nbsp;str(self).</tt></dd></dl>
+
+<hr>
+Data descriptors defined here:<br>
+<dl><dt><strong>__dict__</strong></dt>
+<dd><tt>dictionary&nbsp;for&nbsp;instance&nbsp;variables&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<dl><dt><strong>__weakref__</strong></dt>
+<dd><tt>list&nbsp;of&nbsp;weak&nbsp;references&nbsp;to&nbsp;the&nbsp;object&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+</td></tr></table></td></tr></table><p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#eeaa77">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Functions</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#eeaa77"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><dl><dt><a name="-datetime_columns"><strong>datetime_columns</strong></a>(df, feature)</dt><dd><tt>pass&nbsp;a&nbsp;pandas&nbsp;dataframe&nbsp;and&nbsp;column&nbsp;name&nbsp;with&nbsp;str&nbsp;type&nbsp;with&nbsp;datetime&nbsp;info,<br>
+return&nbsp;columns&nbsp;in&nbsp;the&nbsp;same&nbsp;data&nbsp;frame&nbsp;with&nbsp;columns:&nbsp;day,&nbsp;month&nbsp;and&nbsp;year&nbsp;(int)</tt></dd></dl>
+ <dl><dt><a name="-isit_float"><strong>isit_float</strong></a>(s)</dt><dd><tt>Function&nbsp;pass&nbsp;a&nbsp;string&nbsp;return&nbsp;true&nbsp;if&nbsp;it&nbsp;is<br>
+formatted&nbsp;as&nbsp;a&nbsp;float&nbsp;example&nbsp;<a href="#-isit_float">isit_float</a>('1.1')<br>
+returns&nbsp;False&nbsp;if&nbsp;it&nbsp;is&nbsp;formatted&nbsp;as&nbsp;a<br>
+integer&nbsp;or&nbsp;str&nbsp;example&nbsp;<a href="#-isit_float">isit_float</a>('1')</tt></dd></dl>
+</td></tr></table><p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#55aa55">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Data</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#55aa55"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><strong>ONES</strong> = 0    1.0
+1    1.0
+2    1.0
+3    1.0
+4    1.0
+5  ...    1.0
+7    1.0
+8    1.0
+9    1.0
+dtype: float64<br>
+<strong>ZEROS</strong> = 0     0.0
+1     0.0
+2     0.0
+3     0.0
+4     0.... 0.0
+17    0.0
+18    0.0
+19    0.0
+dtype: float64<br>
+<strong>poem1</strong> = (O Captain! My Captain!,Walt Whitman,
+          ...yfoundation.org/poems/45474/o-captain-my-captain)<br>
+<strong>poem2</strong> = (To the Virgins, to Make Much of Time,Robert Her.../poems/46546/to-the-virgins-to-make-much-of-time)<br>
+<strong>poem3</strong> = (She Walks In Beatuty,Lord Byron,
+              ...ryfoundation.org/poems/43844/she-walks-in-beauty)<br>
+<strong>poem4</strong> = (If—,RUDYARD KIPLING,
+               283, https://www.poetryfoundation.org/poems/46473/if---)<br>
+<strong>poem5</strong> = (The Cremation of Sam McGee,ROBERT W. SERVICE,
+ ...ation.org/poems/45081/the-cremation-of-sam-mcgee)</td></tr></table>
+</body></html>
